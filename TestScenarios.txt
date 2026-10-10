@@ -1,0 +1,37 @@
+Test scenario 1 -- Login with valid credential
+================
+1. Navigate page
+2. Enter username and password and click on Login btn
+3. Validate user landed to the write page
+4. Logout from the application
+
+Test scenario 2 -- Login with invalid credential
+================
+1. Navigate page
+2. Enter username and invalid password and click on Login btn
+3. Validate user gets the error and stay in login page
+
+Test Scenario 3 -- Order the product and complete the purchase
+===============
+1. Navigate page
+2. Enter username and password and click on Login btn
+3. Validate user landed to the write page
+4. Select any product and click on add to cart
+5. Go to cart page and validate the product name and price
+6. Click on "Checkout"
+7. Enter firstname,lastname and postal code and click continue button
+8. Click on Finish to complete the order and validate the success msg
+9. Click on "Back Home" button
+10.Logout from the application
+
+Test Scenario 4 -- Validate the flow until adding the product to the cart and removing the product
+===============
+1. Navigate page
+2. Enter username and password and click on Login btn
+3. Validate user landed to the write page
+4. Select any product and click on add to cart
+5. Go to cart page and validate the product name and price
+6. Click on "Remove"
+7. Make sure no product existing.
+8. Click on "Continue Shopping" button
+9.Logout from the application
