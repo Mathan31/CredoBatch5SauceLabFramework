@@ -4,9 +4,9 @@
  */ 
 
 import { faker } from "@faker-js/faker" 
-
+ 
 export class FakerDataUtil {
-  static generateFirstName(): string {
+  static generateFirstName(): string { 
     return faker.person.firstName();
   }
 

@@ -1,10 +1,8 @@
 import { test} from "../src/core/customFixtures"
-import { LoginPage } from "../src/pages/loginPage"
-import { InventoryPage } from "../src/pages/inventoryPage"
 import { Constants } from "../src/utils/constants"
 import { ExpectUtil } from "../src/utils/expectUtil"
 import { StringConstants } from "../src/utils/stringConstance"
-import { WaitActions } from "../src/wrapper/waitActions"
+
 
 
 test.describe("Login Validation test scenarios", () => {
